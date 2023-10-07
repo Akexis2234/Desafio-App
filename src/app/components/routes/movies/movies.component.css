@@ -1,0 +1,27 @@
+.card-container {
+    background-color: blue;
+    display: flex;
+  }
+  
+  .card {
+    width: 200px;
+    padding: 50px;
+    margin: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: calc(100% - 20px);
+    }
+  }
