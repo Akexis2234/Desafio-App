@@ -2,24 +2,22 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { RouterLink } from '@angular/router';
-import { FooterComponent } from './footer/footer.component';
-import { BuscarComponent } from './header/buscar/buscar.component';
+import { NavbarComponent } from './header/navbar/navbar.component';
 
 
 
 @NgModule({
   declarations: [
     HeaderComponent,
-    FooterComponent,
-    BuscarComponent
+    NavbarComponent
   ],
   imports: [
     CommonModule,
     RouterLink
   ],
   exports: [
-    HeaderComponent
-    
+    HeaderComponent,
+    NavbarComponent
   ]
 })
 export class LayoutModule { }

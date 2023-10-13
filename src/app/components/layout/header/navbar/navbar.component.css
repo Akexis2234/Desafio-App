@@ -1,0 +1,22 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /* Es para que las propiedades que le aplicaquemos a los demas elementos de html no modifiquen 
+                                   su tamano al cambiar el padding, margin, etc. */
+}
+
+.menu {
+    list-style-type: none;      /* este comando permite borrar la enumeracion, puntos, etc de la lista */
+    display: flex;
+    padding: 10px;
+}
+.menu li {
+    color: red;
+    /*display: inline;*/            /* este comando se utiliza para que la lista se vea en una sola linea y no uno debajo de otra */
+    margin-inline: 10px;
+}
+
+.menu li a {
+    color: #EBEEF5;;             /* se le cambia el color, esto se debe hacer a la intequeta <a> */
+    text-decoration: none;      /* Se se saca el subrrayado que viene por defecto */
+}

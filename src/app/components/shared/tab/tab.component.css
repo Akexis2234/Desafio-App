@@ -1,0 +1,28 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     /* Es para que las propiedades que le aplicaquemos a los demas elementos de html no modifiquen 
+                                   su tamano al cambiar el padding, margin, etc. */
+}
+.button {
+    width: 115px;
+    height: 40px;
+    background-color: #7B6EF6;
+    border-radius: 8px;
+    border-color: #7B6EF6;
+}
+.Tab {
+    width: 386px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: #00000033;
+    padding: 8px;
+
+}
+.menuTab {
+    list-style-type: none;      /* este comando permite borrar la enumeracion, puntos, etc de la lista */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: start;
+    gap: 10px;
+}

@@ -1,2 +1,23 @@
 <app-header></app-header>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet> <!--Habilita el Routing-->
+<main>
+  <div class="Titulo">
+    <h1 class="mainTitle">PelisUP!</h1>
+    <h6 class="subTitle">Plataforma para ver Peliculas y series</h6>
+  </div>
+
+  <div class="Buscador">
+    <button class="button">buscador</button>
+    <input type="text">
+  </div>
+
+
+  <div class="Tab">
+    <app-tab></app-tab>
+  </div>
+
+  <div class="ListCard">
+    <h3 class="listCardTitle">Todos...</h3>
+      <app-card class="gridCard"></app-card>
+  </div>
+</main>
